@@ -1,0 +1,19 @@
+<html>
+   <head>
+      <link rel="stylesheet" href="style.css">
+   </head>
+   <body>
+      <div class="homepage">
+         <h2><span id="time">30:00</span></h2>
+      </div>
+      </div>
+   </body>
+   <script src="../startTimer.js"></script>
+   <script>
+      window.onload = function () {
+          var thirtyMinutes = 30*60,
+              display = document.querySelector('#time');
+          startTimer(thirtyMinutes, display);
+      };
+   </script>
+</html>
